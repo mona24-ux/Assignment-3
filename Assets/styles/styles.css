@@ -7,44 +7,27 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* HEADER */
-header {
-  padding: 15px;
-  background: white;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-}
-
-/* CONTAINER */
 .container {
   max-width: 1140px;
 }
 
-/* SECTIONS */
 section {
   margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 42px;
 }
 
 h2 {
   margin-bottom: 20px;
 }
 
-h1 {
-  font-size: 42px;
-}
-.hero button {
-  margin: 5px;
-}
-@media (max-width: 768px) {
-  .hero {
-    text-align: center;
-  }
-}
-.features {
-  padding-top: 90px;
-  padding-bottom: 90px;
-}
-.card {
-  padding: 25px;
+/* HEADER */
+header {
+  padding: 15px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
 /* HERO */
@@ -54,25 +37,8 @@ h1 {
   background: #f5f7fb;
 }
 
-@media (max-width:768px) {
-  .hero {
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-}
-
-/* BUTTONS */
-button {
-  padding: 12px 25px;
-  border-radius: 25px;
-  transition: 0.3s;
-}
-
-button:hover {
-  opacity: 0.8;
+.hero button {
+  margin: 5px;
 }
 
 /* FEATURES */
@@ -83,35 +49,24 @@ button:hover {
 .features .card {
   margin-bottom: 20px;
 }
-.card {
-  transition: 0.3s ease-in-out;
-}
-.card:hover {
-  transform: translateY(-10px);
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
 
 /* CARDS */
 .card {
   padding: 20px;
   border: none;
+  border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-  transition: 0.3s;
-}
-.insights {
-  padding: 100px 0;
+  transition: 0.3s ease-in-out;
 }
 
 .card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-10px);
 }
 
 /* IMAGES */
 img {
   max-width: 100%;
+  height: auto;
 }
 
 .card img {
@@ -119,38 +74,27 @@ img {
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
-.card img {
-  height: 200px;
-  object-fit: cover;
-}
 
 /* INSIGHTS */
 .insights {
-  padding: 80px 0;
+  padding: 100px 0;
 }
 
 .insights .card {
   margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
 }
 
 /* CTA */
 .cta {
   background: #0d1b4c;
   color: white;
-  padding: 80px 0;
+  padding: 100px 0;
+  text-align: center;
 }
-.cta {
-  background: #0d1b4c;
-  color: white;
-}
-.insights .card {
-  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-}
+
 .cta h2 {
   font-size: 32px;
-}
-.cta {
-  padding: 100px 0;
 }
 
 .cta button {
@@ -168,14 +112,26 @@ img {
   font-size: 14px;
   line-height: 1.6;
 }
+
+/* BUTTONS */
+button {
+  padding: 12px 25px;
+  border-radius: 25px;
+  transition: 0.3s;
+  border: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* RESPONSIVE */
 @media (max-width: 768px) {
+  .hero {
+    text-align: center;
+  }
+
   h1 {
     font-size: 28px;
   }
-}
-
-/* PARAGRAPH */
-p {
-  font-size: 16px;
-  line-height: 1.6;
 }
