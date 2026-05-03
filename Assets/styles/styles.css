@@ -46,6 +46,9 @@ img {
 .footer p {
   font-size: 14px;
 }
+.container {
+  max-width: 1140px;
+}
   .features .card {
   margin-bottom: 20px;
 }
