@@ -15,6 +15,9 @@ header {
 .card:hover {
   transform: translateY(-5px);
   transition: 0.3s;
+  .card:hover {
+  transform: translateY(-8px);
+}
   .features .card {
   margin-bottom: 20px;
 }
