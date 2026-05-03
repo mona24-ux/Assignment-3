@@ -2,3 +2,6 @@
   --primary: #0d1b4c;
   --accent: #f5b942;
 }
+body {
+  font-family: Arial, sans-serif;
+}
