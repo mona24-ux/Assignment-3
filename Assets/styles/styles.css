@@ -113,6 +113,9 @@ img {
   color: white;
   padding: 60px 0;
 }
+.footer {
+  padding: 70px 0;
+}
 
 .footer p {
   font-size: 14px;
