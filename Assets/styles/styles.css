@@ -30,3 +30,7 @@ button {
 .insights {
   padding: 80px 0;
 }
+.cta {
+  background: #0d1b4c;
+  color: white;
+}
