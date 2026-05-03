@@ -27,6 +27,12 @@ button {
   padding: 10px 20px;
   border-radius: 20px;
 }
+button {
+  border-radius: 25px;
+}
+button {
+  padding: 12px 25px;
+}
 .features {
   padding: 80px 0;
 }
