@@ -93,6 +93,9 @@ button {
 button {
   border-radius: 25px;
 }
+.card img {
+  border-radius: 10px 10px 0 0;
+}
 button {
   padding: 12px 25px;
 }
