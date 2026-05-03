@@ -43,6 +43,9 @@ img {
 .footer {
   padding: 60px 0;
 }
+.footer p {
+  font-size: 14px;
+}
   .features .card {
   margin-bottom: 20px;
 }
