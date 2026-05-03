@@ -149,6 +149,9 @@ img {
 .cta h2 {
   font-size: 32px;
 }
+.cta {
+  padding: 100px 0;
+}
 
 .cta button {
   margin: 10px;
