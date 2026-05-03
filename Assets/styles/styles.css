@@ -34,6 +34,11 @@ h1 {
 .hero button {
   margin: 5px;
 }
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+  }
+}
 
 /* HERO */
 .hero {
