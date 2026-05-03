@@ -83,6 +83,9 @@ button:hover {
 .features .card {
   margin-bottom: 20px;
 }
+.card {
+  transition: 0.3s ease-in-out;
+}
 
 /* CARDS */
 .card {
