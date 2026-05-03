@@ -15,6 +15,9 @@ header {
 .card:hover {
   transform: translateY(-5px);
   transition: 0.3s;
+  .features .card {
+  margin-bottom: 20px;
+}
   .hero {
   padding: 100px 0;
 }
