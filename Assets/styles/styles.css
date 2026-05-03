@@ -40,6 +40,9 @@ img {
 .cta h2 {
   font-size: 32px;
 }
+.footer {
+  padding: 60px 0;
+}
   .features .card {
   margin-bottom: 20px;
 }
