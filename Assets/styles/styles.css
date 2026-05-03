@@ -16,6 +16,9 @@ header {
   transform: translateY(-5px);
   transition: 0.3s;
 }
+button {
+  transition: 0.3s;
+}
 .hero {
   padding: 60px 0;
   background: #f5f7fb;
