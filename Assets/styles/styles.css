@@ -9,3 +9,6 @@ header {
   padding: 15px;
   background: white;
 }
+header {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
