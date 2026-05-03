@@ -49,6 +49,9 @@ img {
 .container {
   max-width: 1140px;
 }
+section {
+  margin-bottom: 50px;
+}
   .features .card {
   margin-bottom: 20px;
 }
