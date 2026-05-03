@@ -19,6 +19,9 @@ header {
 button {
   transition: 0.3s;
 }
+button:hover {
+  opacity: 0.8;
+}
 .hero {
   padding: 60px 0;
   background: #f5f7fb;
