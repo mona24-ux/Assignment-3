@@ -24,6 +24,9 @@ header {
 img {
   max-width: 100%;
 }
+.insights .card {
+  margin-bottom: 20px;
+}
   .features .card {
   margin-bottom: 20px;
 }
