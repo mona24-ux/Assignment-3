@@ -15,6 +15,9 @@ header {
 .card:hover {
   transform: translateY(-5px);
   transition: 0.3s;
+  .hero {
+  padding: 100px 0;
+}
 }
 button {
   transition: 0.3s;
