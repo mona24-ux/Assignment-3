@@ -21,6 +21,11 @@ header {
 .hero {
   text-align: left;
 }
+@media(max-width:768px){
+  .hero {
+    text-align: center;
+  }
+}
 }
 button {
   transition: 0.3s;
