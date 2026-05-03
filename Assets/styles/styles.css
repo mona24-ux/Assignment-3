@@ -43,6 +43,9 @@ h1 {
   padding-top: 90px;
   padding-bottom: 90px;
 }
+.card {
+  padding: 25px;
+}
 
 /* HERO */
 .hero {
