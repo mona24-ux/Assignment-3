@@ -2,120 +2,133 @@
   --primary: #0d1b4c;
   --accent: #f5b942;
 }
+
 body {
   font-family: Arial, sans-serif;
 }
+
+/* HEADER */
 header {
   padding: 15px;
   background: white;
-}
-header {
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
-.card:hover {
-  transform: translateY(-5px);
-  transition: 0.3s;
-  .card {
-  transition: 0.3s;
-}
-  .card:hover {
-  transform: translateY(-8px);
-}
-img {
-  max-width: 100%;
-}
-.insights .card {
-  margin-bottom: 20px;
-}
-.card img {
-  height: 200px;
-  object-fit: cover;
-}
-.cta {
-  padding: 80px 0;
-}
-.cta button {
-  margin: 10px;
-}
-.cta h2 {
-  font-size: 32px;
-}
-.footer {
-  padding: 60px 0;
-}
-.footer p {
-  font-size: 14px;
-}
+
+/* CONTAINER */
 .container {
   max-width: 1140px;
 }
+
+/* SECTIONS */
 section {
   margin-bottom: 50px;
 }
+
 h2 {
   margin-bottom: 20px;
 }
-  .features .card {
-  margin-bottom: 20px;
-}
-  .hero {
-  padding: 100px 0;
-}
-.hero {
-  text-align: left;
-}
-@media(max-width:768px){
-  .hero {
-    text-align: center;
-  }
-}
-}
-button {
-  transition: 0.3s;
-}
-.card {
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-}
-button:hover {
-  opacity: 0.8;
-}
-.hero {
-  padding: 60px 0;
-  background: #f5f7fb;
-}
+
 h1 {
   font-size: 42px;
 }
-button {
-  padding: 10px 20px;
-  border-radius: 20px;
+
+/* HERO */
+.hero {
+  padding: 100px 0;
+  text-align: left;
+  background: #f5f7fb;
 }
-button {
-  border-radius: 25px;
+
+@media (max-width:768px) {
+  .hero {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
 }
-.card img {
-  border-radius: 10px 10px 0 0;
-}
+
+/* BUTTONS */
 button {
   padding: 12px 25px;
+  border-radius: 25px;
+  transition: 0.3s;
 }
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* FEATURES */
 .features {
   padding: 80px 0;
 }
+
+.features .card {
+  margin-bottom: 20px;
+}
+
+/* CARDS */
+.card {
+  padding: 20px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+/* IMAGES */
+img {
+  max-width: 100%;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+/* INSIGHTS */
 .insights {
   padding: 80px 0;
 }
+
+.insights .card {
+  margin-bottom: 20px;
+}
+
+/* CTA */
 .cta {
   background: #0d1b4c;
   color: white;
+  padding: 80px 0;
 }
+
+.cta h2 {
+  font-size: 32px;
+}
+
+.cta button {
+  margin: 10px;
+}
+
+/* FOOTER */
 .footer {
   background: #0d1b4c;
   color: white;
+  padding: 60px 0;
 }
-.card {
-  padding: 20px;
+
+.footer p {
+  font-size: 14px;
+  line-height: 1.6;
 }
+
+/* PARAGRAPH */
 p {
   font-size: 16px;
   line-height: 1.6;
