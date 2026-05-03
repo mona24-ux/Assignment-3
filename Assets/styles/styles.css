@@ -31,6 +31,9 @@ img {
   height: 200px;
   object-fit: cover;
 }
+.cta {
+  padding: 80px 0;
+}
   .features .card {
   margin-bottom: 20px;
 }
