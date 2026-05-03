@@ -25,6 +25,9 @@ h1 {
 h2 {
   margin-bottom: 20px;
 }
+h1, h2 {
+  font-weight: 700;
+}
 
 /* HEADER */
 header {
