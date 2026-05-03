@@ -86,6 +86,9 @@ button:hover {
 .card {
   transition: 0.3s ease-in-out;
 }
+.card:hover {
+  transform: translateY(-10px);
+}
 
 /* CARDS */
 .card {
