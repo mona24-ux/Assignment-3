@@ -110,6 +110,9 @@ button {
   background: #0d1b4c;
   color: white;
 }
+.card {
+  padding: 20px;
+}
 p {
   font-size: 16px;
   line-height: 1.6;
