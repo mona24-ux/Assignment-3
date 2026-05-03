@@ -18,6 +18,9 @@ header {
   .hero {
   padding: 100px 0;
 }
+.hero {
+  text-align: left;
+}
 }
 button {
   transition: 0.3s;
