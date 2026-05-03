@@ -16,3 +16,7 @@ header {
   padding: 60px 0;
   background: #f5f7fb;
 }
+button {
+  padding: 10px 20px;
+  border-radius: 20px;
+}
