@@ -37,6 +37,9 @@ img {
 .cta button {
   margin: 10px;
 }
+.cta h2 {
+  font-size: 32px;
+}
   .features .card {
   margin-bottom: 20px;
 }
