@@ -12,6 +12,10 @@ header {
 header {
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
 .hero {
   padding: 60px 0;
   background: #f5f7fb;
