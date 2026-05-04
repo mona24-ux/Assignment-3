@@ -49,6 +49,10 @@ header {
   text-align: left;
   background: #f5f7fb;
 }
+.hero {
+  display: flex;
+  align-items: center;
+}
 
 .hero button {
   margin: 5px;
