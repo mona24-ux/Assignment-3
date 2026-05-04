@@ -62,6 +62,9 @@ header {
 .features .card {
   margin-bottom: 20px;
 }
+.features .card {
+  margin-top: 10px;
+}
 .features {
   padding: 100px 0;
 }
