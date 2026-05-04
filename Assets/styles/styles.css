@@ -184,3 +184,10 @@ button:hover {
     font-size: 28px;
   }
 }
+@media (max-width: 768px) {
+  button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
