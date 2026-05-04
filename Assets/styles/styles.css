@@ -93,6 +93,9 @@ img {
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
+.card img {
+  border-radius: 12px 12px 0 0;
+}
 
 /* INSIGHTS */
 .insights {
