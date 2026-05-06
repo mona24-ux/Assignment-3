@@ -49,6 +49,9 @@ header {
   text-align: left;
   background: #f5f7fb;
 }
+.hero h1 {
+  margin-bottom: 15px;
+}
 .hero {
   display: flex;
   align-items: center;
