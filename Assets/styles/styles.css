@@ -111,6 +111,9 @@ img {
 .insights {
   padding: 100px 0;
 }
+.insights .row {
+  gap: 20px;
+}
 
 .insights .card {
   margin-bottom: 20px;
