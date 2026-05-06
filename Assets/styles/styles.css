@@ -144,7 +144,9 @@ img {
 .cta button {
   margin: 10px;
 }
-
+.cta {
+  background: #0b153a;
+}
 /* FOOTER */
 .footer {
   background: #0d1b4c;
