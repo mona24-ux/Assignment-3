@@ -147,6 +147,9 @@ img {
 .cta {
   background: #0b153a;
 }
+.cta h2 {
+  margin-bottom: 20px;
+}
 /* FOOTER */
 .footer {
   background: #0d1b4c;
