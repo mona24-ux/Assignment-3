@@ -167,6 +167,9 @@ img {
 .footer p {
   opacity: 0.85;
 }
+.footer p {
+  margin: 0;
+}
 
 /* BUTTONS */
 button {
