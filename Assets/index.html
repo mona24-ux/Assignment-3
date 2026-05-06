@@ -3,122 +3,179 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Certo</title>
-
+  <title>Certo - Mobile Privacy</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="Assets/styles/styles.css">
 </head>
-
 <body>
 
-<!-- HEADER -->
 <header>
   <div class="container d-flex justify-content-between align-items-center py-3">
-    <h3>Certo</h3>
-    <button class="btn btn-primary">Sign in</button>
+    <div class="logo">
+      <img src="Assets/images/logo.jpg" alt="Certo Logo" height="35">
+    </div>
+    <button class="btn btn-primary rounded-pill px-4 fw-bold">Sign in</button>
   </div>
 </header>
 
-<!-- HERO SECTION -->
 <section class="hero">
   <div class="container">
     <div class="row align-items-center">
-
       <div class="col-md-6">
-        <h1>Your mobile privacy is our mission</h1>
-        <p>Protect your phone from spyware</p>
-        <button class="btn btn-warning">Get iPhone</button>
-        <button class="btn btn-dark">Get Android</button>
+        <h1 class="display-4 fw-bold">Your mobile privacy is our mission</h1>
+        <p class="lead my-4">Think your phone has been hacked? Our trusted apps make it easy for you to scan, detect and remove threats from your iPhone and Android devices.</p>
+        <div class="d-flex flex-wrap gap-3">
+          <button class="btn btn-warning rounded-pill px-4 py-2 fw-bold">Get Certo for iPhone →</button>
+          <button class="btn btn-outline-dark rounded-pill px-4 py-2 fw-bold">Get Certo for Android</button>
+        </div>
       </div>
+      <div class="col-md-6 mt-5 mt-md-0 position-relative">
+        <img src="Assets/images/header.png" class="img-fluid rounded-4 shadow-lg" alt="Dashboard">
+      </div>
+    </div>
+  </div>
+</section>
 
+<section class="testimonials py-5">
+  <div class="container bg-warning rounded-4 p-5">
+    <h2 class="text-center fw-bold mb-5">Loved by thousands of iPhone and Android users alike</h2>
+    <div class="row g-4 text-dark">
+      <div class="col-md-4">
+        <div class="bg-white p-4 rounded-4 h-100 shadow-sm">
+          <div class="text-warning mb-2">★★★★★</div>
+          <p class="small">"Does exactly what it says. Clear to read and understand. This is now the second iPhone we've used it on."</p>
+          <p class="fw-bold mb-0">colinandmandy94</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="bg-white p-4 rounded-4 h-100 shadow-sm">
+          <div class="text-warning mb-2">★★★★★</div>
+          <p class="small">"Love the ease and efficiency. Awesome app. Very informative and insightful if wanting to know more about your device."</p>
+          <p class="fw-bold mb-0">Jennifer Black</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="bg-white p-4 rounded-4 h-100 shadow-sm">
+          <div class="text-warning mb-2">★★★★★</div>
+          <p class="small">"This app is good if you need to identify certain vulnerabilities on your iPhone. If you have any issues, their service is helpful."</p>
+          <p class="fw-bold mb-0">Phillip Colligan</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="story-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
       <div class="col-md-6">
-        <img src="assets/images/phone.png" class="img-fluid" alt="phone">
+        <h2 class="fw-bold">At Certo, mobile security is not an afterthought, it's what we do.</h2>
+        <p class="my-4 text-muted">With years of experience in mobile security and spyware detection, our products have helped countless people safeguard their devices.</p>
+        <div class="d-grid gap-2 d-md-block">
+          <button class="btn btn-warning rounded-pill px-4 mb-2 fw-bold">Get Certo for iPhone →</button><br>
+          <button class="btn btn-outline-dark rounded-pill px-4 fw-bold">Get Certo for Android</button>
+        </div>
       </div>
-
+      <div class="col-md-6 text-center mt-4 mt-md-0">
+        <div class="border border-warning border-4 p-2 d-inline-block rounded-4">
+          <img src="Assets/images/main-section.jpeg" class="img-fluid rounded-3" alt="Story">
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- FEATURES SECTION -->
-<section class="features">
+<section class="features-grid py-5 bg-light">
   <div class="container text-center">
-    <h2>Get your freedom back</h2>
-
-    <div class="row mt-4">
-
-      <div class="col-md-4">
-        <div class="card p-3">
-          <h5>Spyware detection</h5>
+    <h2 class="fw-bold mb-5">Get your freedom back, stop mobile spyware today</h2>
+    <div class="bg-white p-5 rounded-5 shadow-sm">
+      <div class="row g-5">
+        <div class="col-md-4">
+          <img src="Assets/images/div.png" alt="Spyware" class="mx-auto mb-3" width="60">
+          <h5 class="fw-bold">Spyware detection</h5>
+          <p class="small text-muted">Our advanced spyware detection engine can identify if a device contains bugging software.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="Assets/images/div.png" alt="Keylogger" class="mx-auto mb-3" width="60" style="filter: hue-rotate(90deg);">
+          <h5 class="fw-bold">Keylogger detection</h5>
+          <p class="small text-muted">Find malicious keyboards installed on your device that record things you type.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="Assets/images/div.png" alt="Tracking" class="mx-auto mb-3" width="60" style="filter: hue-rotate(180deg);">
+          <h5 class="fw-bold">Find tracking apps</h5>
+          <p class="small text-muted">Check which apps can access your location, microphone or camera.</p>
         </div>
       </div>
-
-      <div class="col-md-4">
-        <div class="card p-3">
-          <h5>Keylogger detection</h5>
-        </div>
+      <div class="mt-5">
+        <button class="btn btn-warning rounded-pill px-5 py-2 fw-bold me-2">Get Certo for iPhone →</button>
+        <button class="btn btn-outline-dark rounded-pill px-5 py-2 fw-bold">Get Certo for Android</button>
       </div>
-
-      <div class="col-md-4">
-        <div class="card p-3">
-          <h5>Threat removal</h5>
-        </div>
-      </div>
-
     </div>
   </div>
 </section>
 
-<!-- INSIGHTS SECTION -->
-<section class="insights">
-  <div class="container text-center">
-    <h2>Latest Insights</h2>
-
-    <div class="row mt-4">
-
+<section class="insights py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5">Latest insights</h2>
+    <div class="row g-4">
       <div class="col-md-4">
-        <div class="card">
-          <img src="assets/images/blog1.png" class="card-img-top" alt="">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+          <img src="Assets/images/main#primary.jpg" class="card-img-top rounded-top-4" alt="Insight 1">
           <div class="card-body">
-            <h5>Signs Your Ex Is Spying</h5>
+            <span class="badge bg-light text-dark mb-2">EXPERTISE</span>
+            <h5 class="fw-bold">Signs Your Ex Is Spying On You</h5>
           </div>
         </div>
       </div>
-
       <div class="col-md-4">
-        <div class="card">
-          <img src="assets/images/blog2.png" class="card-img-top" alt="">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+          <img src="Assets/images/main.png.png" class="card-img-top rounded-top-4" alt="Insight 2">
           <div class="card-body">
-            <h5>Remove Hacker</h5>
+            <span class="badge bg-light text-dark mb-2">GUIDES</span>
+            <h5 class="fw-bold">How to Remove a Hacker From Your Samsung Phone</h5>
           </div>
         </div>
       </div>
-
       <div class="col-md-4">
-        <div class="card">
-          <img src="assets/images/blog3.png" class="card-img-top" alt="">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+          <img src="Assets/images/main.png" class="card-img-top rounded-top-4" alt="Insight 3">
           <div class="card-body">
-            <h5>Phone Surveillance</h5>
+            <span class="badge bg-light text-dark mb-2">EXPERTISE</span>
+            <h5 class="fw-bold">Is Your Cell Phone Under Surveillance?</h5>
           </div>
         </div>
       </div>
-
+    </div>
+    <div class="text-center mt-5">
+      <button class="btn btn-warning rounded-pill px-4 fw-bold">View all insights</button>
     </div>
   </div>
 </section>
 
-<!-- CTA SECTION -->
-<section class="cta text-center">
-  <div class="container py-5">
-    <h2>Is someone spying on your phone?</h2>
-    <button class="btn btn-warning">Get iPhone</button>
-    <button class="btn btn-dark">Get Android</button>
+<footer class="footer bg-dark text-white py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <h4 class="fw-bold">Certo</h4>
+        <div class="d-flex gap-3 my-3">
+          <span>Twitter</span> <span>Facebook</span> <span>YouTube</span>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="bg-warning text-dark p-4 rounded-4">
+          <h5 class="fw-bold">Sign up to our newsletter</h5>
+          <div class="input-group mt-3">
+            <input type="text" class="form-control rounded-start-pill" placeholder="Email address">
+            <button class="btn btn-dark rounded-end-pill px-3">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="my-4">
+    <p class="small opacity-50 text-center">© 2026 Certo Software Limited. All rights reserved.</p>
   </div>
-</section>
-
-<!-- FOOTER -->
-<footer class="footer text-center py-4">
-  <p>© 2025 Certo</p>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
